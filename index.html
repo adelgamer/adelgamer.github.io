@@ -5,10 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <title>Home</title>
 </head>
 
 <body>
+  <!-- bg decore -->
+  <!-- <img id="decore" src="icons/Decore.png" alt="Decore"> -->
+
   <!-- Navigation bar-->
   <nav class="nav-bar">
 
@@ -21,27 +27,29 @@
     <a class="nav-links" href="about-me.html">About me</a>
     <a class="nav-links" href="portfolio.html">Portfolio</a>
     <a class="nav-links" href="Contact.html">Contact</a>
-    <a class="nav-links" href="skills.html">Skills</a>
+    <a class="nav-links last-nav-link" href="skills.html">Skills</a>
 
   </nav>
-  <!-- Hero text such as title, tagline, description -->
-  <div class="hero-text">
-    <p id="tagline">Building the future, one line of code at a time</p>
-    <b id="title">Bringing Ideas to Life - Web Developer & Programmer</b>
-    <p id="description">Hey, My name is Adel! I’m a Back-End web developer with knowledge in PHP and SQL relational
-      database, enabling me to
-      craft high-performing back-end websites. I'm not just a coder; I'm a problem solver skilled in many programming
-      languages, especially Python. Let's turn ideas into reality!</p>
-    <!-- Email me button -->
-    <a href="mailto:adelgamer814@gmail.com">EMAIL ME</a>
-  </div>
+  <!-- Hero section including hero text and hero image -->
+  <div class="hero">
+    <!-- Hero text such as title, tagline, description -->
+    <div class="hero-text">
+      <p id="tagline">Building the future, one line of code at a time</p>
+      <b id="title">Bringing Ideas to Life - Web Developer & Programmer</b>
+      <p id="description">Hey, My name is Adel! I’m a Back-End web developer with knowledge in PHP and SQL relational
+        database, enabling me to
+        craft high-performing back-end websites. I'm not just a coder; I'm a problem solver skilled in many programming
+        languages, especially Python. Let's turn ideas into reality!</p>
+      <!-- Email me button -->
+      <a id="cta-button" href="mailto:adelgamer814@gmail.com">EMAIL ME</a>
+    </div>
 
-  <!-- Hero image -->
-  <div class="hero-image">
-    <img src="icons/Hero circle.svg" alt="circle">
-    <img src="icons/Hero image.png" alt="Image of adel amrane">
+    <!-- Hero image -->
+    <div class="hero-image">
+      <img id="hero-circle" src="icons/Hero circle.svg" alt="circle">
+      <img id="hero-adel" src="icons/Hero image.png" alt="Image of adel amrane">
+    </div>
   </div>
-
   </div>
 </body>
 
