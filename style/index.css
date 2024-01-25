@@ -55,6 +55,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .hero-text {
@@ -93,15 +94,10 @@ body {
   width: 49%;
 }
 
-#hero-circle {
-  position: absolute;
-  width: 45%;
-}
-
 #hero-adel {
   position: absolute;
   right: 5%;
-  width: 65%;
+  width: 40%;
 }
 
 #cta-button {
