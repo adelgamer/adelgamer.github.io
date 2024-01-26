@@ -14,10 +14,12 @@
 
 #text-section {
   width: 46%;
+  min-width: 325px;
 }
 
 #image-section {
   width: 46%;
+  min-width: 325px;
 }
 
 #my-name {
