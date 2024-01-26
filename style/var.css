@@ -8,6 +8,10 @@ body {
   /* Settings the page background color to dark blue */
   background: var(--color1);
   font-family: Inter;
+  background-image: url("../icons/Decore.png");
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* nav-bar include profile icon, name and navigation links like home, contact... */
