@@ -2,73 +2,29 @@
 @import "var.css";
 
 body {
+  /* Settings the page background color to dark blue */
   background: var(--color1);
   width: 99%;
   font-family: Inter;
 }
 
-#name {
-  color: var(--color2);
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.nav-bar {
-  width: 99%;
-  color: var(--color2);
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.nav-links {
-  text-decoration: none;
-  margin-right: 3%;
-  color: var(--color2);
-  font-size: 1.5rem;
-  transition: 0.4s;
-}
-
-.nav-links:hover {
-  color: var(--color3);
-}
-
-.nav-links:visited {
-  color: var(--color3);
-}
-
-
-#profile-icon {
-  width: 4%;
-}
-
-#name {
-  margin-left: 2%;
-  margin-right: 28%;
-}
-
+/* This is the hero section include hero text and hero image */
 .hero {
+  /* Setting flex */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: top;
   justify-content: space-evenly;
+  /* Setting the width of the hero section */
   width: 90%;
+  /* Centering the hero section */
   margin-left: auto;
   margin-right: auto;
+  /* Spacing the hero section from top and bottom */
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
+
 
 .hero-text {
   width: 49%;
@@ -106,27 +62,31 @@ body {
   width: 49%;
 }
 
+/* This one refer to my image element */
 #hero-adel {
-  position: absolute;
-  right: 5%;
-  width: 40%;
+  width: 100%;
 }
 
 #cta-button {
+  /* Removing underline */
   text-decoration: none;
   color: var(--color1);
+  /* setting font */
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  /* BG color */
   background-color: var(--color2);
   padding: 2.5% 10% 2.5% 10%;
   border-radius: 0.25rem;
   margin-left: 10%;
+  /* Animation duration */
   transition: 0.3s;
 }
 
 #cta-button:hover {
+  /* Change size on hover (become bigger) */
   padding: 3% 10.5% 3% 10.5%;
 }
 
@@ -136,8 +96,4 @@ body {
   margin-top: 9rem;
   margin-left: 4rem;
   margin-bottom: auto;
-}
-
-.last-nav-link {
-  margin-right: 0;
 }
