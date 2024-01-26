@@ -21,7 +21,7 @@
 }
 
 #my-name {
-  color: #FFF;
+  color: var(--color2);
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
@@ -29,7 +29,7 @@
 }
 
 #description {
-  color: #FFF;
+  color: var(--color2);
   font-family: Inter;
   font-size: 1.5rem;
   font-style: normal;
