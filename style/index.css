@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   /* Setting the width of the hero section */
   width: 90%;
   /* Centering the hero section */
@@ -28,7 +28,7 @@ body {
 
 .hero-text {
   width: 49%;
-  margin-top: 2rem;
+  min-width: 300px;
 }
 
 #tagline {
@@ -55,11 +55,13 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .hero-image {
   width: 49%;
+  min-width: 300px;
+  margin-top: 4rem;
 }
 
 /* This one refer to my image element */
@@ -80,7 +82,7 @@ body {
   background-color: var(--color2);
   padding: 2.5% 10% 2.5% 10%;
   border-radius: 0.25rem;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   /* Animation duration */
   transition: 0.3s;
 }
@@ -88,6 +90,7 @@ body {
 #cta-button:hover {
   /* Change size on hover (become bigger) */
   padding: 3% 10.5% 3% 10.5%;
+  background-color: var(--color3);
 }
 
 #decore {

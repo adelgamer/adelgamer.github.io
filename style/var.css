@@ -54,6 +54,7 @@
 /* Navigation links change color when hovering over them with the mouse */
 .nav-links:hover {
   color: var(--color3);
+  font-size: larger;
 }
 
 /* Visited navigation links are rendered with a different color */
@@ -64,4 +65,5 @@
 /* Changing the size of the profile icon */
 #profile-icon {
   width: 4%;
+  min-width: 40px;
 }
