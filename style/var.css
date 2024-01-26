@@ -67,10 +67,6 @@ body {
   font-size: larger;
 }
 
-/* Visited navigation links are rendered with a different color */
-.nav-links:visited {
-  color: var(--color3);
-}
 
 /* Changing the size of the profile icon */
 #profile-icon {
