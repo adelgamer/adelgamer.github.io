@@ -1,0 +1,43 @@
+@import "var.css";
+
+#main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text-section {
+  width: 46%;
+}
+
+#image-section {
+  width: 46%;
+}
+
+#my-name {
+  color: #FFF;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#description {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#my-image {
+  width: 90%;
+  border-radius: 50%;
+}

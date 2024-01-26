@@ -2,10 +2,7 @@
 @import "var.css";
 
 body {
-  /* Settings the page background color to dark blue */
-  background: var(--color1);
   width: 99%;
-  font-family: Inter;
 }
 
 /* This is the hero section include hero text and hero image */

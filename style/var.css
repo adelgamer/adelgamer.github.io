@@ -4,6 +4,12 @@
   --color3: lawngreen;
 }
 
+body {
+  /* Settings the page background color to dark blue */
+  background: var(--color1);
+  font-family: Inter;
+}
+
 /* nav-bar include profile icon, name and navigation links like home, contact... */
 .nav-bar {
   width: 99%;
