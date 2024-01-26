@@ -1,12 +1,14 @@
 /* Changing backgound color and body width */
+@import "var.css";
+
 body {
-  background: #02000D;
+  background: var(--color1);
   width: 99%;
   font-family: Inter;
 }
 
 #name {
-  color: #FFF;
+  color: var(--color2);
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
@@ -15,7 +17,7 @@ body {
 
 .nav-bar {
   width: 99%;
-  color: #FFF;
+  color: var(--color2);
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -32,9 +34,19 @@ body {
 .nav-links {
   text-decoration: none;
   margin-right: 3%;
-  color: #FFF;
+  color: var(--color2);
   font-size: 1.5rem;
+  transition: 0.4s;
 }
+
+.nav-links:hover {
+  color: var(--color3);
+}
+
+.nav-links:visited {
+  color: var(--color3);
+}
+
 
 #profile-icon {
   width: 4%;
@@ -64,7 +76,7 @@ body {
 }
 
 #tagline {
-  color: #FFF;
+  color: var(--color2);
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -72,7 +84,7 @@ body {
 }
 
 #title {
-  color: #FFF;
+  color: var(--color2);
   font-family: Inter;
   font-size: 3rem;
   font-style: normal;
@@ -81,7 +93,7 @@ body {
 }
 
 #description {
-  color: #FFF;
+  color: var(--color2);
   font-family: Inter;
   font-size: 1.25rem;
   font-style: normal;
@@ -102,15 +114,20 @@ body {
 
 #cta-button {
   text-decoration: none;
-  color: #000;
+  color: var(--color1);
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  background-color: #D9D9D9;
+  background-color: var(--color2);
   padding: 2.5% 10% 2.5% 10%;
   border-radius: 0.25rem;
   margin-left: 10%;
+  transition: 0.3s;
+}
+
+#cta-button:hover {
+  padding: 3% 10.5% 3% 10.5%;
 }
 
 #decore {
