@@ -1,30 +1,39 @@
 @import "var.css";
 
 .nav-bar {
+  /* Spacing the content 2rem away from the nav-bar */
   margin-bottom: 2rem;
 }
 
 #main-title {
+  /* Setting up colors */
   color: var(--color2);
+  /* Setting the font */
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  /* Setting a spacing at the bigening */
   margin-left: 4%;
 }
 
 #my-skills-div {
+  /* Setting up flex */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  /* Setting up width */
   width: 95%;
+  /* Centering the div */
   margin-left: auto;
   margin-right: auto;
 }
 
 .skill-title {
+  /* Setting up colors */
   color: var(--color2);
+  /* Setting the font */
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
@@ -32,7 +41,9 @@
 }
 
 .skill-description {
-  color: #FFF;
+  /* Setting up colors */
+  color: var(--color2);
+  /* Setting the font */
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -40,7 +51,10 @@
 }
 
 .skill {
+  /* Setting up width */
   width: 45%;
+  /* Setting up min-width for mobile friendliness */
   min-width: 325px;
+  /* Spacing the element away from each other */
   margin-top: 5vh;
 }

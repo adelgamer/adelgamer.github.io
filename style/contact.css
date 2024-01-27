@@ -1,22 +1,29 @@
 @import "var.css";
 
 .nav-bar {
+  /* Spacing the content 2rem away from the nav-bar */
   margin-bottom: 2rem;
 }
 
 #main-title {
+  /* Setting up colors */
   color: var(--color2);
   font-size: 3rem;
+  /* Setting the font */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  /* Setting up spacing from the left */
   margin-left: 4%;
 }
 
 #content {
+  /* Setting up width */
   width: 90%;
+  /* Centering the div */
   margin-left: auto;
   margin-right: auto;
+  /* Setting up flex */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -24,7 +31,9 @@
 }
 
 .contact-media-title {
+  /* Setting up colors */
   color: var(--color2);
+  /* Setting the font */
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
@@ -32,7 +41,9 @@
 }
 
 .contact-credential {
+  /* Setting up colors */
   color: var(--color2);
+  /* Setting the font */
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
@@ -40,20 +51,29 @@
 }
 
 .contact-links {
+  /* Making the links in one line */
   display: block;
+  /* Setting up colors */
   color: var(--color3);
+  /* Removing the underline in the anchor */
   text-decoration: none;
+  /* animation duration */
   transition-duration: 0.3s;
 }
 
 .contact-links:hover {
+  /* Changing color and changing size when hovering */
   color: var(--color2);
   font-size: larger;
 }
 
 .info-div {
+  /* Making the content line by line instead of one line */
   display: inline;
+  /* Setting up width */
   width: 50%;
+  /* Setting up min-width for mobile friendliness */
   min-width: 325px;
+  /* Spacing the element away from each other */
   margin-top: 5vh;
 }

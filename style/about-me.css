@@ -1,38 +1,48 @@
 @import "var.css";
 
+/* Main is the section that contain the div of text and image */
 #main {
+  /* Setting up flex */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  /* Setting up the width */
   width: 90%;
+  /* Spacing the main section 2rem aways from the nav-bar */
   margin-top: 2rem;
+  /* Centering */
   margin-left: auto;
   margin-right: auto;
 }
 
-#text-section {
-  width: 46%;
-  min-width: 325px;
-}
-
+/* That's the section in the left resposible for my name and description */
+/* And the section in the right resposible for my image */
+#text-section,
 #image-section {
+  /* Setting width */
   width: 46%;
+  /* Setting min-width for mobile friendliness */
   min-width: 325px;
 }
 
+/* My name Adel Amrane is the page */
 #my-name {
+  /* Setting up color */
   color: var(--color2);
+  /* Setting the font */
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
+/* My description */
 #description {
+  /* Setting up color */
   color: var(--color2);
-  font-family: Inter;
+  /* Setting the font */
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -41,5 +51,6 @@
 
 #my-image {
   width: 90%;
+  /* Making the image circular */
   border-radius: 50%;
 }
