@@ -1,5 +1,14 @@
 @import "var.css";
 
+#main-title {
+  color: var(--color2);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 4%;
+}
+
 #content {
   width: 90%;
   margin-left: auto;
