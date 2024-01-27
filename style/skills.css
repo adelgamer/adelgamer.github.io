@@ -57,4 +57,11 @@
   min-width: 325px;
   /* Spacing the element away from each other */
   margin-top: 5vh;
+  /* Setting up animation duration */
+  transition-duration: 0.3s;
+}
+
+.skill:hover {
+  /* BG changes color on hover */
+  background-color: var(--color4);
 }
