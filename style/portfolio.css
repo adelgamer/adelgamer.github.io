@@ -1,1 +1,93 @@
 @import "var.css";
+
+#portfolio-title {
+  color: var(--color2);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 5%;
+}
+
+#portfolios-section {
+  width: 94%;
+  margin-top: 0.4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.images {
+  overflow-y: auto;
+  overflow: auto;
+  white-space: nowrap;
+  width: 100%;
+
+}
+
+.image {
+  width: 50%;
+  min-width: 500px;
+  display: inline-block;
+  border: 2px solid var(--color2);
+  border-radius: 15px;
+}
+
+.project-title {
+  color: var(--color2);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.programming-languages {
+  color: var(--color2);
+  font-size: 0.875rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+  opacity: 70%;
+}
+
+.description {
+  color: var(--color2);
+  text-overflow: ellipsis;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  word-wrap: break-word;
+}
+
+.link {
+  color: var(--color2);
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 10%;
+  transition-duration: 0.3s;
+}
+
+.link:hover {
+  color: var(--color3);
+  font-size: x-large;
+}
+
+.project {
+  padding: 2% 2% 2% 2%;
+  border-radius: 15px;
+}
+
+.project:hover {
+  background-color: var(--color4);
+  transition-duration: 0.3s;
+}
+
+.text {
+  margin-top: 2rem;
+}

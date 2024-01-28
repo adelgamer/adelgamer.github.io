@@ -5,6 +5,42 @@
   --color4: blueviolet;
 }
 
+/* For WebKit browsers (Chrome, Safari) */
+/* You may need to use browser-specific prefixes for other browsers */
+
+/* Track styles (the area where the thumb moves) */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.6rem;
+  /* Width of the scrollbar */
+}
+
+/* Handle styles (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: var(--color2);
+  /* Color of the scrollbar thumb */
+  border-radius: 6px;
+  /* Rounded corners of the scrollbar thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color2);
+  /* Color on hover */
+}
+
+/* Track styles on the sides of the thumb */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  /* Color of the scrollbar track */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-track:hover {
+  background-color: transparent;
+  /* Color on hover */
+}
+
 body {
   /* Settings the page background color to dark blue */
   background: var(--color1);
