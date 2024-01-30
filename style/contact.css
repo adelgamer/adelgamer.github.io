@@ -40,15 +40,6 @@
   line-height: normal;
 }
 
-.contact-credential {
-  /* Setting up colors */
-  color: var(--color2);
-  /* Setting the font */
-  font-size: 1.1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 
 .contact-links {
   /* Making the links in one line */
@@ -71,13 +62,15 @@
   /* Making the content line by line instead of one line */
   display: inline;
   /* Setting up width */
-  width: 50%;
+  width: 46%;
   /* Setting up min-width for mobile friendliness */
   min-width: 325px;
   /* Spacing the element away from each other */
   margin-top: 5vh;
   /* Setting animation duration */
   transition-duration: 0.3s;
+  padding: 2% 2% 2% 2%;
+  border-radius: 15px;
 }
 
 .info-div:hover {

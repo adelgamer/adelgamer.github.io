@@ -5,6 +5,15 @@
   --color4: blueviolet;
 }
 
+p {
+  color: var(--color2);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 3rem;
+}
+
 /* For WebKit browsers (Chrome, Safari) */
 /* You may need to use browser-specific prefixes for other browsers */
 
@@ -48,7 +57,7 @@ body {
   background-image: url("../icons/Decore.png");
   background-size: 50%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
 }
 
 /* nav-bar include profile icon, name and navigation links like home, contact... */

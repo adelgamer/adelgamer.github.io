@@ -39,15 +39,7 @@
 }
 
 /* My description */
-#description {
-  /* Setting up color */
-  color: var(--color2);
-  /* Setting the font */
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
+
 
 #my-image {
   width: 90%;

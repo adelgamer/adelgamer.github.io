@@ -40,15 +40,6 @@
   line-height: normal;
 }
 
-.skill-description {
-  /* Setting up colors */
-  color: var(--color2);
-  /* Setting the font */
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 
 .skill {
   /* Setting up width */
@@ -59,6 +50,8 @@
   margin-top: 5vh;
   /* Setting up animation duration */
   transition-duration: 0.3s;
+  padding: 2% 2% 2% 2%;
+  border-radius: 15px;
 }
 
 .skill:hover {
