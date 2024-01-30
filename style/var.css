@@ -58,6 +58,7 @@ body {
   background-size: 50%;
   background-position: center;
   background-repeat: repeat-y;
+  padding-top: 1rem;
 }
 
 /* nav-bar include profile icon, name and navigation links like home, contact... */
