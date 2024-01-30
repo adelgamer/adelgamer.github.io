@@ -78,6 +78,7 @@ body {
   /* Centering the nav-bar */
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2rem;
 }
 
 /* Name is reffering to my name adel amrane in the top left corner after the prfile icon */
@@ -91,6 +92,8 @@ body {
   line-height: normal;
   margin-left: 2%;
   margin-right: 28%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* Navigation links: home, about me, portfolio, contact, skills */
