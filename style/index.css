@@ -1,10 +1,6 @@
 /* Changing backgound color and body width */
 @import "var.css";
 
-body {
-  width: 99%;
-}
-
 /* This is the hero section include hero text and hero image */
 .hero {
   /* Setting flex */
@@ -34,6 +30,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 1rem;
 }
 
 #title {
