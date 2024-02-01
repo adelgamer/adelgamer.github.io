@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   /* Setting up width */
   width: 95%;
   /* Centering the div */
@@ -34,7 +34,7 @@
   /* Setting up colors */
   color: var(--color2);
   /* Setting the font */
-  font-size: var(--size1);
+  font-size: var(--size2);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
