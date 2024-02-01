@@ -1,15 +1,15 @@
 @import "var.css";
 
 .nav-bar {
-  /* Spacing the content 2rem away from the nav-bar */
-  margin-bottom: 2rem;
+  /* Spacing the content var(--size2) away from the nav-bar */
+  margin-bottom: var(--size2);
 }
 
 #main-title {
   /* Setting up colors */
   color: var(--color2);
   /* Setting the font */
-  font-size: 3rem;
+  font-size: var(--size1);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -34,7 +34,7 @@
   /* Setting up colors */
   color: var(--color2);
   /* Setting the font */
-  font-size: 3rem;
+  font-size: var(--size1);
   font-style: normal;
   font-weight: 700;
   line-height: normal;

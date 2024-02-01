@@ -10,8 +10,8 @@
   justify-content: space-between;
   /* Setting up the width */
   width: 90%;
-  /* Spacing the main section 2rem aways from the nav-bar */
-  margin-top: 2rem;
+  /* Spacing the main section var(--size2) aways from the nav-bar */
+  margin-top: var(--size2);
   /* Centering */
   margin-left: auto;
   margin-right: auto;
@@ -32,7 +32,7 @@
   /* Setting up color */
   color: var(--color2);
   /* Setting the font */
-  font-size: 3rem;
+  font-size: var(--size1);
   font-style: normal;
   font-weight: 700;
   line-height: normal;

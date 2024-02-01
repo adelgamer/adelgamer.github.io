@@ -1,8 +1,13 @@
 :root {
+  /* Colors */
   --color1: #02000D;
   --color2: #FFF;
   --color3: lawngreen;
   --color4: blueviolet;
+  /* Sizes */
+  --size1: 3rem;
+  --size2: 2rem;
+  --size3: 1rem;
 }
 
 p {
@@ -11,7 +16,7 @@ p {
   font-style: normal;
   font-weight: 380;
   line-height: normal;
-  margin-bottom: 3rem;
+  margin-bottom: var(--size1);
 }
 
 #credit {
@@ -65,8 +70,8 @@ body {
   background-size: 50%;
   background-position: center;
   background-repeat: repeat-y;
-  padding-top: 1rem;
-  width: 100%;
+  padding-top: var(--size3);
+  width: 97%;
   padding: 0;
 }
 
@@ -88,7 +93,7 @@ body {
   /* Centering the nav-bar */
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
+  margin-bottom: var(--size2);
 }
 
 /* Name is reffering to my name adel amrane in the top left corner after the prfile icon */
@@ -96,7 +101,7 @@ body {
   /* Setting color */
   color: var(--color2);
   /* Setting the font*/
-  font-size: 2rem;
+  font-size: var(--size2);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -123,7 +128,7 @@ body {
 
 .nav-bar-icons {
   width: 1.5rem;
-  margin-right: 0.3rem;
+  margin-right: 0.2rem;
 }
 
 /* Navigation links change color when hovering over them with the mouse */

@@ -1,42 +1,56 @@
 @import "var.css";
 
+/* This is te page title 'portfolio' */
 #portfolio-title {
+  /* Setting the color */
   color: var(--color2);
-  font-size: 3rem;
+  /* Setting the font */
+  font-size: var(--size1);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  /* Spacing away the title from the left */
   margin-left: 2%;
 }
 
+/* This section is where all the portfolio projects are */
 #portfolios-section {
+  /* Setting width */
   width: 94%;
+  /* Spacing away */
   margin-top: 0.4rem;
+  /* Centering */
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
-
 }
 
 
 .images {
+  /* Setting a y scrollbar */
   overflow-y: auto;
   overflow: auto;
+  /* images don't wrap to a new line */
   white-space: nowrap;
+  /* WIdth of the container is 100% */
   width: 100%;
-
 }
 
 .image {
+  /* width of the image is half container */
   width: 50%;
+  /* min width for mobile */
   min-width: 500px;
+  /* displaying images in 1 line */
   display: inline-block;
+  /* Setting border */
   border: 2px solid var(--color2);
   border-radius: 15px;
 }
 
 .project-title {
+  /* setting color */
   color: var(--color2);
+  /* setting font */
   font-size: 1.7rem;
   font-style: normal;
   font-weight: 700;
@@ -44,34 +58,32 @@
 }
 
 .programming-languages {
+  /* setting color */
   color: var(--color2);
+  /* setting font */
   font-size: 0.875rem;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
+  /* Setting the display line by line, because <i> displays in line by default */
   display: block;
+  /* Reducing transparency */
   opacity: 70%;
 }
 
-/* .description {
-  color: var(--color2);
-  text-overflow: ellipsis;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  word-wrap: break-word;
-} */
-
 .link {
+  /* setting color */
   color: var(--color2);
+  /* setting font */
   font-size: 1.3rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  display: inline-block;
+  /* Removing underline */
   text-decoration: none;
+  /* Spacing away from each other */
   margin-right: 10%;
+  /* animation duration */
   transition-duration: 0.3s;
 }
 
@@ -83,14 +95,10 @@
 .project {
   padding: 2% 2% 2% 2%;
   border-radius: 15px;
-  margin-bottom: 2rem;
+  margin-bottom: var(--size2);
 }
 
 .project:hover {
   background-color: var(--color4);
   transition-duration: 0.3s;
-}
-
-.text {
-  margin-top: 2rem;
 }

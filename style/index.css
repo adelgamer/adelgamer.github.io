@@ -14,8 +14,8 @@
   margin-left: auto;
   margin-right: auto;
   /* Spacing the hero section from top and bottom */
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: var(--size3);
+  margin-bottom: var(--size2);
 }
 
 
@@ -26,16 +26,15 @@
 
 #tagline {
   color: var(--color2);
-  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 1rem;
+  margin-bottom: var(--size3);
 }
 
 #title {
   color: var(--color2);
-  font-size: 3rem;
+  font-size: var(--size1);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
