@@ -83,3 +83,17 @@
   margin-left: 4rem;
   margin-bottom: auto;
 }
+
+/* If the width of the screen is in breakpoint zone than disable the flex-wrap to display the image and text in one line */
+@media only screen and (min-width: 400px) and (max-width: 650px) and (max-resolution: 90dpi) {
+  .hero {
+    flex-wrap: nowrap;
+  }
+}
+
+/* If the screen is small (phone) than change the title font-size to a smaller font size */
+@media only screen and (max-width: 720px) {
+  #title {
+    font-size: var(--size2);
+  }
+}
