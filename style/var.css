@@ -131,6 +131,25 @@ body {
   transition: 0.4s;
 }
 
+.mobile-nav-links {
+  /* Remove underline */
+  text-decoration: none;
+  /* Setting a space between the links by using margin */
+  margin-right: 3%;
+  /* Setting color */
+  color: var(--color2);
+  /* Setting font size */
+  font-size: 1.5rem;
+  /* Setting animation duration */
+  transition: 0.4s;
+  display: block;
+  margin-bottom: 5vh;
+}
+
+.mobile-nav-links+.mobile-nav-links::before {
+  margin-bottom: 5vh;
+}
+
 .nav-bar-icons {
   width: 1.5rem;
   margin-right: 0.2rem;
@@ -148,4 +167,44 @@ body {
   width: 4%;
   min-width: 40px;
   margin-bottom: 1.5rem;
+}
+
+#show-nav-bar-btn {
+  /* background-color: var(--color2); */
+  width: 2rem;
+  height: 2rem;
+  display: none;
+  filter: invert(1);
+}
+
+#mobile-nav {
+  background-color: var(--color4);
+  position: fixed;
+  width: 90%;
+  padding-left: 0.8rem;
+  top: 50vh;
+  transform: translateY(-50%);
+  height: 80vh;
+  padding-top: 5vh;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+}
+
+
+@media only screen and (max-width: 1128px) {
+  .nav-links {
+    display: none;
+  }
+
+  #name {
+    font-size: 1.5rem;
+  }
+
+  #show-nav-bar-btn {
+    display: inline-block;
+  }
+
+  nav {
+    justify-content: space-evenly;
+  }
 }
