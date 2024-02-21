@@ -187,7 +187,7 @@ body {
   height: 80vh;
   padding-top: 5vh;
   border-radius: 15px;
-  transition-duration: 0.5s;
+  z-index: 1;
 }
 
 
